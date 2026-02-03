@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Laboratory 1</title>
+
+    <script>
+        window.onload = function () {
+            alert("Hello World");
+        };
+    </script>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #eef2f7, #dfe9f3);
+            color: #333;
+        }
+
+        .container {
+            background-color: #ffffff;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 35px 45px;
+            border-radius: 12px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #4f46e5;
+            padding-bottom: 12px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #4f46e5;
+            margin-top: 35px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.8;
+            color: #555;
+        }
+
+        ul, ol {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #4f46e5;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #3730a3;
+            text-decoration: underline;
+        }
+
+        img {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #f8fafc;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        th {
+            background-color: #4f46e5;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f3f4f6;
+        }
+
+        tr:hover {
+            background-color: #e0e7ff;
+            transition: background-color 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Laboratory Activity No.1: Introduction to HTML5 Basics</h1>
+
+        <p>HTML5 is the modern standard language used for building web pages.
+        <br> It relies on tags or elements to organize and display webpage content.
+        <br> Learning the basic HTML tags, proper document structure, and related concepts
+        <br>such as DOM, XML, XHTML, and Web Storage APIs is important in web development.</p>
+
+        <h2>Unordered List</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <h2>Ordered List</h2>
+        <ol>
+            <li>Plan</li>
+            <li>Design</li>
+            <li>Develop</li>
+        </ol>
+
+        <h3>Media & Resources</h3>
+    <p>Helpful Resource: <a href="https://www.w3schools.com" target="_blank">W3Schools Tutorial</a></p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/960px-W3Schools_logo.svg.png" 
+         alt="W3Schools Logo" 
+         width="150">
+
+        <h2>Student Information</h2>
+        <table border="1" cellpadding="5">
+            <tr>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Year Level</th>
+            </tr>
+            <tr>
+                <td>Sheryl Ann C. Barrot</td>
+                <td>BSIT</td>
+                <td>3rd Year</td>
+            </tr>
+            <tr>
+                <td>Jessabel Q. Pormento</td>
+                <td>BSES</td>
+                <td>3rd Year</td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
+</html>
